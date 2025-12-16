@@ -1,18 +1,16 @@
-## Getting Started
+# Práctica – Estructuras de Datos Lineales
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Ejercicio 01 – Validación de Signos
+Se utilizó un Stack para verificar que los signos (), {}, [] estén correctamente balanceados.
+Cada símbolo de apertura se apila y cada cierre se valida contra el tope.
 
-## Folder Structure
+## Ejercicio 02 – Ordenar un Stack
+Se ordenó un Stack de enteros usando únicamente otro Stack auxiliar.
+El elemento más pequeño queda en el tope respetando las reglas LIFO.
 
-The workspace contains two folders by default, where:
+## Ejercicio 03 – Palíndromo con Colas
+Se usaron colas FIFO para comparar un String original con su versión invertida,
+sin comparar directamente el String.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Evidencias
+Se muestran las salidas por consola desde la clase App.
